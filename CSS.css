@@ -10,9 +10,27 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(https://i.pinimg.com/originals/a9/cb/c8/a9cbc8547915b4927bc238e79aa4729d.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+/*     Цей в мабуть зроблю коли не будь в майбутньому
+.gradient {
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(#00000060, #00000036);
+    height: 100%;
+    width: 100%;
 }
 
-header {
+position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+*/
+header {   
+    
     background-image: url(witcher-1-9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +39,7 @@ header {
     color: white;
     margin: 0 auto;
     text-align: center;
-
+    z-index: 10;
 }
 
 .text {
@@ -33,16 +51,16 @@ header {
 }
 
 h1 {
-    padding-top: 90px;
+    padding: 32px;
+    padding-top: 130px;
     font-weight: 600;
-    font-size: 77px;
+    font-size: 80px;
     margin: 0 auto;
-    z-index: 10;
     text-align: center;
 }
 
 main {
-    padding-top: 70px;
+    padding-top: 90px;
     padding-bottom: 0px;
     font-size: 23px;
     background-image: url(image\ \(2\).png);
@@ -54,10 +72,10 @@ main {
 
 section {
     margin: 0 auto;
-    max-width: 856px;
+    max-width: 900px;
     max-height: 1440px;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 #New_Features {
@@ -85,8 +103,8 @@ section p {
 nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 37px;
-    margin: 20px;
+    font-size: 40px;
+    margin: 30px;
 }
 
 footer {
